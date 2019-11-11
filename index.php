@@ -1,9 +1,10 @@
 <?php
-    // 文件
+	// 文件
+	$items = array(
+	);
+	require_once('config/mydata.php');
     $data = array(
-        'abc' => array(),
-        'ldz' => array(),
-        'zh'  => array()
+        'playlist' => $items
     );
 ?>
 <!doctype html>
@@ -15,7 +16,21 @@
 	<title>乐乐学</title>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="css/default.css">
-	<link rel="stylesheet" type="text/css" href="css/main.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<meta name="full-screen" content="yes">
+
+    <link rel="apple-touch-icon" href="images/appiPhone3x.png">
+    
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src='js/jaudio.js'></script>
+	<script>
+		<?php
+			echo 'var g_data = ' .json_encode($data) .';';
+		?>
+		$(function(){
+			$(".jAudio--player").jAudio(g_data);
+		});
+	</script>
 </head>
 <body>
 	<article class="htmleaf-container">
@@ -54,8 +69,7 @@
 		</div>
 	</article>
 	
-	<script src="js/jquery-2.1.1.min.js"></script>
-	<script src='js/jaudio.js'></script>
+	
 </body>
 </html>
 

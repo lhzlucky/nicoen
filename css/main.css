@@ -33,7 +33,7 @@ html {
   overflow: hidden;
   background: #fff;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
-  margin: 100px auto;
+  margin: 20px auto;
   width: 352px;
 }
 .jAudio--player:after {
@@ -60,9 +60,11 @@ html {
   clear: both;
 }
 .jAudio--player .jAudio--controls {
-  width: 100%;
+  width: 352px;
   display: table;
   background: #fafafa;
+  position: fixed;
+  bottom: 0;
 }
 .jAudio--player .jAudio--controls:after {
   content: " ";
