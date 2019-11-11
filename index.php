@@ -17,7 +17,8 @@
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="css/default.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<meta name="full-screen" content="yes">
+	<meta name="screen-orientation" content="portrait|landscape">
+    <meta name="full-screen" content="yes">
 
     <link rel="apple-touch-icon" href="images/appiPhone3x.png">
     
