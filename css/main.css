@@ -22,6 +22,8 @@ html {
 
 body {
   font-size: 1rem;
+  height:100%;
+  overflow: hidden;
 }
 
 html {
@@ -29,12 +31,12 @@ html {
 }
 
 .jAudio--player {
-  display: table;
+
   overflow: hidden;
   background: #fff;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
-  margin: 20px auto;
-  width: 352px;
+  margin: 4% auto;
+  width: 92%;
 }
 .jAudio--player:after {
   content: " ";
@@ -43,8 +45,8 @@ html {
   clear: both;
 }
 .jAudio--player .jAudio--ui {
-  position: relative;
-  width: 100%;
+  position: fixed;
+  width: 92%;
 }
 .jAudio--player .jAudio--status-bar {
   width: 100%;
@@ -60,7 +62,7 @@ html {
   clear: both;
 }
 .jAudio--player .jAudio--controls {
-  width: 352px;
+  width: 92%;
   display: table;
   background: #fafafa;
   position: fixed;
@@ -162,7 +164,12 @@ html {
   background: #fff;
 }
 .jAudio--player .jAudio--playlist {
+  top: 240px;
+  position: absolute;
+  width: 92%;
+  bottom: 70px;
   background: #fff;
+  overflow: scroll;
 }
 .jAudio--player .jAudio--playlist .jAudio--playlist-item {
   display: block;
