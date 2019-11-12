@@ -1,5 +1,6 @@
 <?php
 	// 文件
+	$_VERSION = 1;
 	$items = array(
 	);
 	require_once('config/mydata.php');
@@ -16,14 +17,14 @@
 	<title>乐乐学</title>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="css/default.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css?<?php echo $_VERSION; ?>">
 	<meta name="screen-orientation" content="portrait|landscape">
     <meta name="full-screen" content="yes">
 
     <link rel="apple-touch-icon" href="images/appiPhone3x.png">
     
 	<script src="js/jquery-2.1.1.min.js"></script>
-	<script src='js/jaudio.js'></script>
+	<script src='js/jaudio.js?<?php echo $_VERSION; ?>'></script>
 	<script>
 		<?php
 			echo 'var g_data = ' .json_encode($data) .';';
