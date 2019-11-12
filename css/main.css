@@ -323,5 +323,13 @@ html {
   -webkit-transition: all 0.3s ease 0s;
           transition: all 0.3s ease 0s;
 }
-
+.setting {
+  position: absolute;
+  background-image: url(../images/setting.png);
+  width: 32px;
+  height: 32px;
+  right: 10px;
+  top: 10px;
+  z-index: 100;
+}
 /*# sourceMappingURL=main.css.map */
