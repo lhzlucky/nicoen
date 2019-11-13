@@ -238,5 +238,110 @@ $items = array(
         'trackArtist'=> '英语儿歌',
         'trackAlbum' => 'Single'
     ),
+    array(
+        'file' => 'tracks/0905mofangdu.mp3',
+        'thumb'=> 'thumbs/03.jpg',
+        'trackName'=> '模仿读5句',
+        'trackArtist'=> '模仿读',
+        'trackAlbum' => 'Single'
+    ),
+    array(
+        'file' => 'tracks/1am1u2.mp3',
+        'thumb'=> 'thumbs/01.jpg',
+        'trackName'=> '1AM1U2',
+        'trackArtist'=> '牛津英语(朗读纸)',
+        'trackAlbum' => 'Single'
+    ),
+    array(
+        'file' => 'tracks/bsong.mp3',
+        'thumb'=> 'thumbs/02.jpg',
+        'trackName'=> 'Bb儿歌',
+        'trackArtist'=> '英语儿歌',
+        'trackAlbum' => 'Single'
+    ),
+    array(
+        'file' => 'tracks/1aabc1.mp3',
+        'thumb'=> 'thumbs/03.jpg',
+        'trackName'=> '1A week1',
+        'trackArtist'=> '快乐ABC',
+        'trackAlbum' => 'Single'
+    ),
+    array(
+        'file' => 'tracks/1aabc2.mp3',
+        'thumb'=> 'thumbs/01.jpg',
+        'trackName'=> '1A week2',
+        'trackArtist'=> '快乐ABC',
+        'trackAlbum' => 'Single'
+    ),
+    array(
+        'file' => 'tracks/1aziran1.mp3',
+        'thumb'=> 'thumbs/02.jpg',
+        'trackName'=> '1A 自然2 week1',
+        'trackArtist'=> '自然2',
+        'trackAlbum' => 'Single'
+    ),
+    array(
+        'file' => 'tracks/1aziran2.mp3',
+        'thumb'=> 'thumbs/03.jpg',
+        'trackName'=> '1A 自然2 week2',
+        'trackArtist'=> '自然2',
+        'trackAlbum' => 'Single'
+    ),
+    array(
+        'file' => 'tracks/zuqiu1.mp3',
+        'thumb'=> 'thumbs/01.jpg',
+        'trackName'=> '足球外教课1',
+        'trackArtist'=> '足球外教',
+        'trackAlbum' => 'Single'
+    ),
+    array(
+        'file' => 'tracks/1aziran3.mp3',
+        'thumb'=> 'thumbs/02.jpg',
+        'trackName'=> '1A 自然2 week3',
+        'trackArtist'=> '自然2',
+        'trackAlbum' => 'Single'
+    ),
+    array(
+        'file' => 'tracks/1aabc3.mp3',
+        'thumb'=> 'thumbs/01.jpg',
+        'trackName'=> '1A week3',
+        'trackArtist'=> '快乐ABC',
+        'trackAlbum' => 'Single'
+    ),
+    array(
+        'file' => 'tracks/happysong.mp3',
+        'thumb'=> 'thumbs/02.jpg',
+        'trackName'=> '儿歌happy',
+        'trackArtist'=> '英语儿歌',
+        'trackAlbum' => 'Single'
+    ),
+    array(
+        'file' => 'tracks/1am1u3.mp3',
+        'thumb'=> 'thumbs/03.jpg',
+        'trackName'=> '1AM1U3',
+        'trackArtist'=> '牛津英语(朗读纸)',
+        'trackAlbum' => 'Single'
+    ),
+    array(
+        'file' => 'tracks/1am2u1.mp3',
+        'thumb'=> 'thumbs/01.jpg',
+        'trackName'=> '1AM2U1',
+        'trackArtist'=> '牛津英语(朗读纸)',
+        'trackAlbum' => 'Single'
+    ),
+    array(
+        'file' => 'tracks/1am2u2.mp3',
+        'thumb'=> 'thumbs/02.jpg',
+        'trackName'=> '1AM2U2',
+        'trackArtist'=> '牛津英语(朗读纸)',
+        'trackAlbum' => 'Single'
+    ),
+    array(
+        'file' => 'tracks/1am2u3.mp3',
+        'thumb'=> 'thumbs/03.jpg',
+        'trackName'=> '1AM2U3',
+        'trackArtist'=> '牛津英语(朗读纸)',
+        'trackAlbum' => 'Single'
+    ),
 );
 ?>

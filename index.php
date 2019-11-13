@@ -42,7 +42,7 @@
 		<div class='jAudio--player'>
 		    <audio></audio>
 		    <div class='jAudio--ui'>
-			  <div class="setting"></div>
+			  <div class="setting" style="display:none;"></div>
 		      <div class='jAudio--thumb'></div>
 		      <div class='jAudio--status-bar'>
 		        <div class='jAudio--details'></div>
